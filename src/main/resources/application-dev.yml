@@ -1,0 +1,10 @@
+logging:
+  level:
+    dev.langchain4j: DEBUG
+    com.jobhawk: DEBUG
+
+jobhawk:
+  playwright:
+    headless: false
+    slow-mo-ms: 200
+    timeout-ms: 30000

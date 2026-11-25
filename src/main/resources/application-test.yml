@@ -1,0 +1,10 @@
+jobhawk:
+  playwright:
+    headless: true
+    slow-mo-ms: 0
+    timeout-ms: 30000
+
+logging:
+  level:
+    dev.langchain4j: INFO
+    com.ijobhawk: INFO
