@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: jobHawk
+  profiles:
+    active: dev
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+
+jobhawk:
+  llm:
+    api-key: ${AI_API_KEY}
+    base-url: ${AI_BASE_URL}
+    model-name: ${AI_MODEL_NAME}
+    temperature: ${AI_TEMPERATURE}
